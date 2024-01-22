@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-first-room-to-the-right-higher-quality">
+        <li class="text">First room to the right higher quality</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-second-room-to-the-left-higher-quality">
+        <li class="text">Second room to the left higher quality</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-first-room-to-the-left">
+        <li class="text">First room to the left</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-back-room-in-the-upper-floor">
+        <li class="text">back room in the upper floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-front-to-the-upper-floor">
+        <li class="text">FRONT TO THE UPPER FLOOR</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-upfront-hall">
+        <li class="text">upfront hall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-coffee-place">
+        <li class="text">coffee place</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-dji_0321">
+        <li class="text">DJI_0321</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-right-room-in-the-entrance">
+        <li class="text">right room in the entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-right-entrance">
+        <li class="text">Right Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-1">
+        <li class="text">1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-2">
+        <li class="text">2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-in-front-of-2">
+        <li class="text">In front of 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-kitchen">
+        <li class="text">kitchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-front-to-kitchen">
+        <li class="text">front to kitchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-in-front-of-in-front-2">
+        <li class="text">in front of in FRONT 2</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
